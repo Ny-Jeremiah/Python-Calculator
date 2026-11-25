@@ -1,4 +1,4 @@
-# Adding an import systems to closse to program
+# Adding an import systems to close to program
 import sys
 
 # Making a manual function for the gui 
@@ -23,13 +23,13 @@ if __name__ == "__main__":
     print("Hello user, enter two numbers please. Make sure you use ',' in your input: ") 
     
 
-    # Using the While loop and try and except as safegaurds
+    # Using the While loop and try and except as safe gaurds
     while True:
         user_input = input()
         
         # to let the user quit out of the calculator
         if user_input.strip().lower() == "quit":
-            print("Quiting the calculator, good day!")
+            print("Quitting the calculator, good day!")
             sys.exit()
 
         # Another safe guard in place for an invalid input from the user
@@ -38,7 +38,7 @@ if __name__ == "__main__":
             float(value.strip()) for value in user_input.split(",") if value.strip()
             ]
         except ValueError:
-         print("Please eneter number, like 1, 2.")
+         print("Please enter number, like 1, 2.")
          continue
 
         if len(var_list) != 2:
@@ -57,9 +57,9 @@ if __name__ == "__main__":
     F"\nThe second number is: '{answer_2}' "
     )
 
-    # using math operator with the cleaned inputs frpm the user
+    # using math operator with the cleaned inputs from the user
 
-    # Using while loop and continure as safeguards so that the program doesn't crash
+    # Using while loop and continue as safeguards so that the program doesn't crash
     while True:
      print("Choose a math operator: ")
      math_operator = input().strip()
