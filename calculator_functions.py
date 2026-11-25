@@ -49,14 +49,13 @@ if __name__ == "__main__":
         
 
     # Final base answers
-    if user_input.strip().lower() != "quit":
-     answer_1 = var_list[0]
-     answer_2 = var_list[1]
+    answer_1 = var_list[0]
+    answer_2 = var_list[1]
 
-     print(
-     F"The first number is: '{answer_1}' "
-     F"\nThe second number is: '{answer_2}' "
-     )
+    print(
+    F"The first number is: '{answer_1}' "
+    F"\nThe second number is: '{answer_2}' "
+    )
 
     # using math operator with the cleaned inputs frpm the user
 
@@ -78,7 +77,6 @@ if __name__ == "__main__":
         continue
 
      break
-
 
 
     # Finalization of the data
